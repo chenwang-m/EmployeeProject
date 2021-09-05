@@ -43,7 +43,7 @@ public class MainTerminal {
                     input = "exist";
                     break;
                 default:
-                    System.out.println("输入的执行序号不存在请重新输入");
+                    System.out.println("输入的执行序号不存在请您重新输入");
             }
         } while (!input.equals("exist"));
     }
