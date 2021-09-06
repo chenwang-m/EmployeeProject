@@ -12,7 +12,7 @@ public class MainTerminal {
     private static final String EXIST = "4";
 
     public static void main(String[] args) {
-//        JDBCUtils.getConnection();
+        JDBCUtils.getConnection();
         Scanner scanner = new Scanner(System.in);
         String input;
         do {
